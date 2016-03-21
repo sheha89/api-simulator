@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/apptizer/total-sales?from=12-01-2015&to=12-07-2015"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"from\": \"2015-08-01\",\"to\": \"2015-08-29\",\"dailySummary\": [{\"date\": \"2015-08-24\",\"currency\": \"LKR\",\"totalSales\": \"1650.50\",\"totalOrderCount\": 2},{\"date\": \"2015-08-26\",\"currency\": \"LKR\",\"totalSales\": \"550.00\",\"totalOrderCount\": 1}],\"links\": [{\"rel\": \"http://api.apptizer.io:9098/reporting/totalsales/summary/business/APP_000001?from=2015-08-01&to=2015-08-29\",\"href\": \"self\",\"method\": \"GET\"}]}"
+  }
+}
+

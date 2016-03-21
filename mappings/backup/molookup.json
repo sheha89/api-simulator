@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/cps-molookup/query?username=dialog&msisdn=777376307&pwd=srilanka&serviceid=908&type=1"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+
+        "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?><PORT><MSISDN>94773222082</MSISDN><ERRORCODE>0</ERRORCODE><ERRORTEXT>Success</ERRORTEXT><MNC>-1</MNC><MCC>-1</MCC><NETWORK_ID>151</NETWORK_ID><SPID></SPID><SPNAME>null</SPNAME><COUNTYRCODE>94</COUNTYRCODE><TERMINAL>One V</TERMINAL><VENDOR>1413</VENDOR><TERMINAL_ID>1855</TERMINAL_ID><TERMINALX>HTC ONE V (PK76100)</TERMINALX><IMEI>351816055053040</IMEI><IMSI>null</IMSI></PORT>"
+    }
+}
+

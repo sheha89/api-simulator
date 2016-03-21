@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/app/top-sales?from=12-01-2015&to=12-07-2015"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"from\": \"12-01-2015\",\"to\": \"12-07-2015\",\"currency\": \"USD\",\"totalRevenue\": 12546.50,\"growth\": 0,\"products\": [{\"code\": \"123456\",\"name\": \"Fish Sandwitch\",\"price\": 5.55,\"units\": 123,\"revenue\": {\"amount\": 682.65,\"tot\": 6.5,\"growth\": 0},\"links\": [{\"rel\": \"self\",\"href\": \"https://api.apptizer.io/reports/productdetails/123456\",\"method\": \"GET\"}]}],\"links\": [{\"rel\": \"self\",\"href\": \"https://api.apptizer.io/reports/topsales/business/123456?from=12-01-2015&to=12-07-2015&orderBy=revenue\"},{\"rel\": \"next\",\"href\": \"https://api.apptizer.io/reports/topsales/business/123456?from=12-01-2015&to=12-07-2015&orderBy=revenue&pageNo=2\",\"method\": \"GET\"}, {\"code\": \"123156\",\"name\": \"Fish Sandwitch\",\"price\": 5.55,\"units\": 123,\"revenue\": {\"amount\": 682.65,\"tot\": 6.5,\"growth\": 0},\"links\": [{\"rel\": \"self\",\"href\": \"https://api.apptizer.io/reports/productdetails/123456\",\"method\": \"GET\"}]}],\"links\": [{\"rel\": \"self\",\"href\": \"https://api.apptizer.io/reports/topsales/business/123456?from=12-01-2015&to=12-07-2015&orderBy=revenue\"},{\"rel\": \"next\",\"href\": \"https://api.apptizer.io/reports/topsales/business/123456?from=12-01-2015&to=12-07-2015&orderBy=revenue&pageNo=2\",\"method\": \"GET\"}, {\"code\": \"123451\",\"name\": \"Fish Sandwitch\",\"price\": 5.55,\"units\": 123,\"revenue\": {\"amount\": 682.65,\"tot\": 6.5,\"growth\": 0},\"links\": [{\"rel\": \"self\",\"href\": \"https://api.apptizer.io/reports/productdetails/123456\",\"method\": \"GET\"}]}],\"links\": [{\"rel\": \"self\",\"href\": \"https://api.apptizer.io/reports/topsales/business/123456?from=12-01-2015&to=12-07-2015&orderBy=revenue\"},{\"rel\": \"next\",\"href\": \"https://api.apptizer.io/reports/topsales/business/123456?from=12-01-2015&to=12-07-2015&orderBy=revenue&pageNo=2\",\"method\": \"GET\"}]}"
+  }
+}
+

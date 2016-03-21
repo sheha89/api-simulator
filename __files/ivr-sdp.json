@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/ivr/init",
+       "bodyPatterns" : [
+            { "equalToJson" : "{ \"ncs-id\": \"ivr\", \"operator\": \"dialog\", \"recipient-address\": \"7711111\", \"correlation-id\": \"342342342345234534\", \"sender-address\": \"7722222222\", \"request-type\": \"call-init\" }", "jsonCompareMode": "LENIENT" }
+        ]
+    },
+    "response": {
+        "status": 200,
+	"headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{ \"status-code\":\"S1000\",\"status-description\":\"Success\",\"app-id\":\"APP_005000\",\"sp-id\":\"SPP_000001\",\"template\": {\"name\": \"play-once\",\"audio\":\"app1_header.wav\"}}"
+    }
+}
